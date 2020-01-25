@@ -25,9 +25,8 @@ class CourseContent_Q extends Component {
                             <p><span className="badge badge-primary">Question 1:</span>The course was organized and sequenced in a way that helped me learn effectively.</p>
                         </td>  
                         <div>
-                            <Question/>
-                            
-                            {/*<ReactRadioButtonGroup name="formGrp1" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q1"/>*/} 
+                        <QuestionTemplate/>
+                        {/*<ReactRadioButtonGroup name="formGrp1" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q1"/>*/} 
                         </div>                             
                     </tr>
                     <tr className="col">
@@ -35,8 +34,8 @@ class CourseContent_Q extends Component {
                             <p><span className="badge badge-primary">Question 2:</span>The course provided a mixture and apppropriate balance of explanation and practice.</p>
                         </td>
                         <div>
-                            <Question/>
-                            {/*<ReactRadioButtonGroup name="formGrp2" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q2"/>*/}
+                        <QuestionTemplate/>
+                        {/*<ReactRadioButtonGroup name="formGrp2" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q2"/>*/}
                         </div>
                     </tr>
                     <tr className="col">
@@ -44,8 +43,8 @@ class CourseContent_Q extends Component {
                             <p><span className="badge badge-primary">Question 3:</span>The course work helped me understand concepts more clearly.</p>
                         </td>
                         <div>
-                            <Question/>
-                            {/*<ReactRadioButtonGroup name="formGrp3" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q3"/>*/}
+                        <QuestionTemplate/>
+                        {/*<ReactRadioButtonGroup name="formGrp3" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q3"/>*/}
                         </div>
                     </tr>
                 </tbody>

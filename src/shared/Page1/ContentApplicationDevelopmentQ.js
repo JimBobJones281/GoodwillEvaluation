@@ -25,7 +25,7 @@ class ContentApplicationDevelopmentQ extends Component {
                                 <p><span className="badge badge-primary">Question 1:</span>The course developed my ability to think critically.</p>
                             </td>  
                             <div>
-                            <QuestionTemplate formGrp='formGrp4'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp5" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q5"/>*/}
                             </div>                             
                         </tr>
@@ -34,7 +34,7 @@ class ContentApplicationDevelopmentQ extends Component {
                                 <p><span className="badge badge-primary">Question 2:</span>The course helped me in basic technical abilities and skills for the subject matter.</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp5'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp6" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q6"/>*/}
                             </div>
                         </tr>
@@ -43,7 +43,7 @@ class ContentApplicationDevelopmentQ extends Component {
                                 <p><span className="badge badge-primary">Question 3:</span>The course developed my ability to collaborate with team members and business owners.</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp6'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp7" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q7"/>*/}
                             </div>
                         </tr>
@@ -52,7 +52,7 @@ class ContentApplicationDevelopmentQ extends Component {
                                 <p><span className="badge badge-primary">Question 4:</span>The course developed my communciation/presentation skills.</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp7'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp8" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q8"/>*/}
                             </div>
                         </tr>

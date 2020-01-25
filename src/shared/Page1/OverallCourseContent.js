@@ -25,7 +25,7 @@ class OverallCourseContent extends Component {
                                 <p><span className="badge badge-primary">Question 1:</span>How satisfied were you with the course?</p>
                             </td>  
                             <div>
-                            <QuestionTemplate formGrp='formGrp10'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp9" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q9"/>*/} 
                             </div>                             
                         </tr>
@@ -34,7 +34,7 @@ class OverallCourseContent extends Component {
                                 <p><span className="badge badge-primary">Question 2:</span>How would you rate the overall effectiveness of this course?</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp11'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp10" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q10"/>*/}
                             </div>
                         </tr>

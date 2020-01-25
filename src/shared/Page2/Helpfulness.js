@@ -33,7 +33,7 @@ class Helpfulness extends Component {
                                 <p><span className="badge badge-primary">Question 2:</span>The instructor was helpful to me individually when I had questions or was having difficulties (in conferences, email exchanges, etc.).</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp16'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp10" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q10"/>*/}
                             </div>
                         </tr>
@@ -42,7 +42,7 @@ class Helpfulness extends Component {
                                 <p><span className="badge badge-primary">Question 3:</span>The instructor was readily available during the class.</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp17'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp11" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q11"/>*/}
                             </div>
                         </tr>

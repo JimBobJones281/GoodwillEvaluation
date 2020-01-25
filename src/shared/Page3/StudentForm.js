@@ -6,7 +6,10 @@ class InstructorTeam extends Component {
         return (
             <div className="row justify-content-md-center">
                 <div className="col-lg-9" style={{marginTop:'30px'}}>
-                    <h2>Student Evaluation</h2>
+                    <h5>Student Evaluation</h5>
+                    <p class="text-justify"> 
+                        The following questions are based on how much time and effort was put into the course as well as your overall work ethic.
+                    </p>
                     <p><span className="badge badge-primary">Question 1:</span>How many classes did you attend(24 total sessions)</p>
                     <select
                         className="form-control"
@@ -38,7 +41,7 @@ class InstructorTeam extends Component {
                                 <p><span className="badge badge-primary">Question 3:</span>How satisified were you with your effort in this course?</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp21'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp6" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q6"/>*/}
                             </div>
                         </tr>
@@ -47,7 +50,7 @@ class InstructorTeam extends Component {
                                 <p><span className="badge badge-primary">Question 4:</span>How likely are you to recommend this course to others?(subjects, instructors, management, etc.)</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp22'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp6" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q6"/>*/}
                             </div>
                         </tr>

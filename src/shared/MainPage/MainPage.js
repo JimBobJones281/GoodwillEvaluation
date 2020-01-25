@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import TextBody from './TextBody';
 import Caption from './Caption';
-import Questions from '../../../missioncode_testreact/src/Questions';
 
 
 class MainPage extends Component {
@@ -10,7 +9,6 @@ class MainPage extends Component {
             <div>
                 <Caption/>
                 <TextBody/>
-                <Questions/>
             </div>
         );
     }

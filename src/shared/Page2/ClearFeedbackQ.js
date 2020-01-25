@@ -24,7 +24,7 @@ class ClearFeedback extends Component {
                                 <p><span className="badge badge-primary">Question 1:</span>The instructor and management team provided clear constructive feedback.</p>
                             </td>  
                             <div>
-                            <QuestionTemplate formGrp='formGrp18'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp5" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q5"/>*/}
                             </div>                             
                         </tr>
@@ -33,7 +33,7 @@ class ClearFeedback extends Component {
                                 <p><span className="badge badge-primary">Question 2:</span>The instructor and management team provided meaningful guidance on my progress/work</p>
                             </td>
                             <div>
-                            <QuestionTemplate formGrp='formGrp19'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp6" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q6"/>*/}
                             </div>
                         </tr>

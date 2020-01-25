@@ -10,7 +10,10 @@ class InstructorTeam extends Component {
         return (
             <div className="row justify-content-md-center">
                 <div className="col-lg-9" style={{marginTop:'30px'}}>
-                    <h2>Insturctor/Team Feedback Evaluation</h2>
+                    <h5>Insturctor/Team Feedback Evaluation</h5>
+                    <p class="text-justify"> 
+                        The following questions are based on the instructors ability to educate and train you based on the resources provided.
+                    </p>
                     <PresentationContent/>
                     <ClarityExpectations/>
                     <Helpfulness/>

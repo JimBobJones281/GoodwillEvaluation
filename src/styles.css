@@ -1,0 +1,69 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+.container{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 30px;
+}
+.text_color{
+    color: black;
+}
+h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+#courseEval{
+    font-weight: bold;
+    padding-right: 180px;
+}
+.description{
+    margin-right: 200px;
+}
+#topic1{
+    padding-right: 250px;
+    font-size: 32px;
+}
+.card_container{
+    border-style: solid;
+    margin-top: 10px;
+    width: 55%;
+    position: absolute;
+    margin-left: 200px;
+    text-align: left;
+}
+.checkBox{
+    padding-left: 100px;
+    position: relative;
+}
+.option{
+    padding-left: 60px;
+}
+.choices{
+    padding-top: 20px;
+}
+.error_margin{
+    margin-top: 160px;
+}
+#topic1{
+    padding-right: 250px;
+    font-size: 32px;
+}
+#topic2{
+    font-size: 32px;
+}
+#topic3{
+    padding-right: 150px;
+    font-size: 32px;
+}
+#backButton{
+    margin-right: 125px;
+}
+#nextButton{
+    margin-left: 125px;
+}
+.button{
+    margin-top: 200px;
+}
+.ftpad{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

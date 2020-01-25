@@ -24,7 +24,7 @@ class PresentationContent extends Component {
                             <p><span className="badge badge-primary">Question 1:</span>The instructor effectively presented the tools (e.g. materials, skills, and techniques) needed.</p>
                         </td>  
                         <div>
-                        <QuestionTemplate formGrp='formGrp12'/>
+                        <QuestionTemplate/>
                         {/*<ReactRadioButtonGroup name="formGrp1" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q1"/>*/} 
                         </div>                             
                     </tr>
@@ -33,7 +33,7 @@ class PresentationContent extends Component {
                             <p><span className="badge badge-primary">Question 2:</span>The instructor effectively presented concepts and techniques in an organized and clear manner.</p>
                         </td>
                         <div>
-                        <QuestionTemplate formGrp='formGrp13'/>
+                        <QuestionTemplate/>
                         {/*<ReactRadioButtonGroup name="formGrp2" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q2"/>*/}
                         </div>
                     </tr>

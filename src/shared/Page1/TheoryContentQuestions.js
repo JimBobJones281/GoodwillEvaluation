@@ -25,7 +25,7 @@ class TheoryContentQuestions extends Component {
                             <p><span className="badge badge-primary">Question 1:</span>The course provided the opportunity to practice skills required in the course.</p>
                         </td>  
                         <div>
-                        <QuestionTemplate formGrp='formGrp8'/>
+                        <QuestionTemplate/>
                         {/*<ReactRadioButtonGroup name="formGrp9" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q9"/>*/} 
                         </div>                             
                     </tr>
@@ -34,7 +34,7 @@ class TheoryContentQuestions extends Component {
                             <p><span className="badge badge-primary">Question 2:</span>The course improved my problem solving skills.</p>
                         </td>
                         <div>
-                        <QuestionTemplate formGrp='formGrp9'/>
+                        <QuestionTemplate/>
                         {/*<ReactRadioButtonGroup name="formGrp10" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q10"/>*/}
                         </div>
                     </tr>

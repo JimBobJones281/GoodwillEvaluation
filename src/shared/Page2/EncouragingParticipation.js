@@ -24,7 +24,7 @@ class EncouragingParticipation extends Component {
                                 <p><span className="badge badge-primary">Question 1:</span>The instructor encouraged and provided opportunities for class participation and questions.</p>
                             </td>  
                             <div>
-                            <QuestionTemplate formGrp='formGrp20'/>
+                            <QuestionTemplate/>
                             {/*<ReactRadioButtonGroup name="formGrp5" options={["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"]} value="Q5"/>*/}
                             </div>                             
                         </tr>
